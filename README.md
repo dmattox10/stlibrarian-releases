@@ -1,9 +1,18 @@
-# STLibrarian releases
+# STLibrarian releases (moved)
 
-Downloads for [STLibrarian](https://stlibrarian.com), a media library for 3D
-printing. This repository holds **builds only**. There is no source here.
+**Downloads are now with the source:
+[github.com/dmattox10/STLibrarian/releases/latest](https://github.com/dmattox10/STLibrarian/releases/latest)**
 
-Get the latest build from the [Releases page](../../releases/latest).
+This repository existed for exactly one reason. STLibrarian's source was
+private, a private repository's release assets need a token to download, and a
+download button on a website has no token to give. So the builds were published
+here, where anybody could fetch them without an account, and nothing else ever
+was.
+
+STLibrarian is public now, and free software under the MIT licence, so the
+builds sit beside the source they were built from. The releases already here
+stay here, up to and including v0.1.2, so no link anybody has saved goes dead.
+Nothing new will be published to this repository.
 
 | Platform | File |
 | --- | --- |
@@ -13,15 +22,14 @@ Get the latest build from the [Releases page](../../releases/latest).
 | Linux | `.AppImage`, `.deb` or `.rpm` |
 | NAS server | `stlibrarian-server-x86_64.tar.gz` / `-arm64.tar.gz` |
 
-Builds are produced by CI from the private source repository and uploaded here
-automatically when a version is tagged.
-
 ## Problems and reviews
 
-Use **Feedback** in the app's sidebar rather than this repository. It sends the
-app version and platform along with your report, which is most of what makes a
-bug report actionable. Issues are not enabled here.
+Use **Feedback** in the app's sidebar rather than either repository. It sends
+the app version and platform along with your report, which is most of what
+makes a bug report actionable. Issues are not enabled here.
 
 ## Licence
 
-See the licence shipped inside the application.
+MIT, and the
+[licence is in the source repository](https://github.com/dmattox10/STLibrarian/blob/main/LICENSE).
+A copy also ships inside the application.
